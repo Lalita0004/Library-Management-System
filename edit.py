@@ -1,0 +1,35 @@
+from tkinter import*
+
+def func():
+    #root=Tk()
+    root = Toplevel()
+    root.title("Library Management System")
+    root.geometry("958x750")
+    bg=PhotoImage(file='edit.png')
+    label1=Label(root,image=bg)
+    label1.place(x=0,y=0)
+    e1=Entry(root,font=("arial",10),borderwidth=1,relief="solid")
+    e1.place(x=540,y=177)
+    e2=Entry(root,font=("arial",10),borderwidth=1,relief="solid")
+    e2.place(x=540,y=226)
+    e3=Entry(root,font=("arial",10),borderwidth=1,relief="solid")
+    e3.place(x=540,y=274)
+    e4=Entry(root,font=("arial",10),borderwidth=1,relief="solid")
+    e4.place(x=540,y=325)
+    e5=Entry(root,font=("arial",10),borderwidth=1,relief="solid")
+    e5.place(x=540,y=372)
+    e6=Entry(root,font=("arial",10),borderwidth=1,relief="solid")
+    e6.place(x=540,y=421)
+    e7=Entry(root,font=("arial",10),borderwidth=1,relief="solid")
+    e7.place(x=540,y=471)
+    e8=Entry(root,font=("arial",10),borderwidth=1,relief="solid")
+    e8.place(x=540,y=543)
+    e9=Entry(root,font=("arial",10),borderwidth=1,relief="solid")
+    e9.place(x=540,y=588)
+    b1=Button(root,text="Search",width='15').place(x=730,y=175)
+    b2=Button(root,text="Exit",width='15').place(x=660,y=650)
+    b4=Button(root,text="Edit",width='15').place(x=820,y=650)
+
+
+
+    root.mainloop()
